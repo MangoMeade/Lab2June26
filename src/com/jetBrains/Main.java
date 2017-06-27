@@ -10,10 +10,14 @@ public class Main {
         Scanner scnr = new Scanner(System.in);
         int inputNumber = 0;
         String Loop = "y";
+        String userName;
+
+        System.out.println("What is your name?");
+        userName = scnr.next();
 
         //run code in braces while loop equals "y"
         while (Loop.equals("y") ) {
-            System.out.println("Enter a number between 1 and 100");
+            System.out.println(userName + ", enter a number between 1 and 100");
             inputNumber = scnr.nextInt();
 
             if (inputNumber >= 1 && inputNumber <= 100) {
