@@ -43,7 +43,8 @@ public class Main {
 
                 if (Loop.equals("y")) {
                     continue;
-                } else if (Loop.equals("n")) {
+                } 
+		else if (Loop.equals("n")) {
                     System.out.println("Bye!");
                     break;
                 }
